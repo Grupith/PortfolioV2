@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #20232a;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 0px #000000dc;
+}
+
+span {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.mainInfo {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.techInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.techInfo h2 {
+  font-size: 2.9rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.techInfo ul li {
+  margin: 3rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.projectsPage {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.cardContainer {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 4rem;
+}
+
+.card {
+}
+
+.cardImage {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.card h3 {
+  font-size: 2.2rem;
+  margin: 1rem 0rem 0.5rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  width: 50%;
+  margin: auto;
+  line-height: 1.5rem;
+}
