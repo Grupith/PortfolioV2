@@ -100,12 +100,15 @@ h2 {
   gap: 4rem;
 }
 
-.card {
-}
-
 .cardImage {
   max-width: 100%;
   border: 1px solid black;
+  transition: all ease 0.25s;
+  border-radius: 1rem;
+}
+
+.cardImage:hover {
+  transform: scale(1.1);
 }
 
 .card h3 {
@@ -118,4 +121,21 @@ h2 {
   width: 50%;
   margin: auto;
   line-height: 1.5rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  color: black;
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #20232a;
+  color: white;
 }
